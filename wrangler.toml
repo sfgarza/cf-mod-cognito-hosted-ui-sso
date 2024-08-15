@@ -1,0 +1,10 @@
+name = "cf-mod-cognito-hosted-ui-sso"
+compatibility_date = "2024-07-13"
+main = "./index.ts"
+routes = [
+	{ pattern = "sso.santiagogarza.co/*", zone_name = "santiagogarza.co"}
+]
+
+
+
+

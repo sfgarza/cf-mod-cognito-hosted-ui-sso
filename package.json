@@ -1,0 +1,20 @@
+{
+  "name": "cf-mod-cognito-hosted-ui-sso",
+  "version": "1.0.0",
+  "description": "This worker modifies the AWS cognito hosted ui further than what is capable through the dashboard customization settings.",
+  "main": "index.js",
+  "scripts": {
+    "login" : "wrangler login",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify",
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240722.0",
+    "wrangler": "^3.66.0"
+  }
+}
